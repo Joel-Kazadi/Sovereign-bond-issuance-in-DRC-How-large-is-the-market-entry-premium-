@@ -73,7 +73,7 @@ This script imports the raw Excel data and prepares the master cleaned dataset u
 
 #### Notes
 
-This script is the foundation of the pipeline. The later scripts rely on clean_df being available in memory.
+This script is the foundation of the pipeline. The later scripts rely on `clean_df` being available in memory.
 
 ### 2 EDA
 
@@ -102,7 +102,7 @@ This script estimates the locally weighted regression models used to reconstruct
 
 #### Notes
 
-This script creates the helper functions that the simulation stage later reuses. For that reason, `3 Estimation.R` should be sourced before 4 Simulations.R if the scripts are run manually.
+This script creates the helper functions that the simulation stage later reuses. For that reason, `3 Estimation.R` should be sourced before `4 Simulations.R` if the scripts are run manually.
 
 ### 4 Simulations
 
