@@ -35,7 +35,7 @@ if (!exists("clean_df")) {
 dir.create("plots", showWarnings = FALSE, recursive = TRUE)
 
 clean_df <- clean_df %>%
-  filter(!country %in% c("Grenade", "Kazakhstan"))
+  filter(!country %in% c("Canada", "Grenade", "Kazakhstan"))
 
 # ---------------------------------------------------------
 # 1) Model specification

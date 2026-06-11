@@ -38,7 +38,7 @@ if (!dir.exists(plots_dir)) dir.create(plots_dir, recursive = TRUE)
 # 2) Light factor recoding for plotting / removing outliers
 # -----------------------------------------------------------
 raw_df <- raw_df %>%
-  filter(!country %in% c("Liban", "Venezuela")) %>%
+  filter(!country %in% c("Canada", "Liban", "Venezuela")) %>%
   mutate(
     region = factor(region),
     installment = factor(installment),
